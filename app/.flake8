@@ -1,6 +1,11 @@
+# Flake8 configuration file
+# flake8 --config=app/.flake8 app/
+
 [flake8]
 exclude =
     migrations,
     __pycache__,
     manage.py,
     settings.py
+
+max-line-length = 120
